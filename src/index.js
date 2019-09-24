@@ -5,8 +5,6 @@ import { contactContent } from './contact.js';
 
 frontPage();
 aboutContent();
-// menuContent();
-// contactContent();
 
 const createListeners = function() {
     const aboutTab = document.querySelector('.aboutActive');
