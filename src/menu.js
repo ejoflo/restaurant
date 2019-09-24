@@ -7,9 +7,9 @@ function menuContent() {
     while (info.firstChild) {
         info.removeChild(info.firstChild);
     }
+
     info.appendChild(menu);
 }    
 
 export { menuContent };
-    
     

@@ -9,21 +9,21 @@ const contact = document.createElement('p');
 const info = document.createElement('div');
 
 const frontPage = function() {
+    content.appendChild(main);
+    main.setAttribute('id', 'main');
+    
+    main.appendChild(header);
+    header.textContent = 'đụ mámái Restaurant';
+
+    main.appendChild(hero);
     hero.src = '../dist/img/viet_food.jpg';
     hero.setAttribute('class', 'hero');
 
-    content.appendChild(main);
-
-    main.setAttribute('id', 'main');
-    main.appendChild(header);
-    main.appendChild(hero);
     main.appendChild(menu);
-    main.appendChild(info);
-
     menu.setAttribute('id', 'menu');
+    
+    main.appendChild(info);
     info.setAttribute('id', 'info');
-
-    header.textContent = 'đụ mámái Restaurant';
 
     menu.appendChild(about);
     about.setAttribute('class', 'aboutActive');
