@@ -26,7 +26,7 @@ const frontPage = function() {
     header.textContent = 'đụ mámái Restaurant';
 
     menu.appendChild(about);
-    about.setAttribute('class', 'about');
+    about.setAttribute('class', 'aboutActive');
     about.textContent = 'ABOUT';
 
     menu.appendChild(food);
@@ -36,13 +36,6 @@ const frontPage = function() {
     menu.appendChild(contact);
     contact.setAttribute('class', 'contact');
     contact.textContent = 'CONTACT';
-
-
 }
-
-// const createListeners = () {
-    
-// }
-
 
 export { frontPage };
